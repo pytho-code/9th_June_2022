@@ -1,0 +1,4 @@
+
+ my file
+ how are you all ?
+ we are using append mode here 

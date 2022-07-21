@@ -1,5 +1,4 @@
 
-from ast import Break
 
 
 intro="""
@@ -115,20 +114,20 @@ while status:
             score=score+50
             print("Correct Answer")
             print("Score:",score)
-            print(" ")
+            #print(" ")
         else:
             score=score-50
             print("Wrong Answer")
             print("Score:",score)
-            print(" ")
+            break
             
 
     print(f"Your final score is {score}!\n\n")
 
-choice=input("Would you like to play again?: (y/n) ")
-if choice=="n" or choice=="no":
+    choice=input("Would you like to play again?: (y/n) ")
+    if choice=="n" or choice=="no":
          status=False
-else:
+    else:
             status=True
 
 

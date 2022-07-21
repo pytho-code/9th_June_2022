@@ -1,0 +1,6 @@
+f=open("example.txt","r")
+l1=f.readlines()
+print(l1)
+print("no of lines : ",len(l1))
+print("2nd line : ",l1[1])
+print("Last Line of the file : ",l1[-1])
