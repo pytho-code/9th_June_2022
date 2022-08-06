@@ -1,10 +1,12 @@
 #self is to use class properties eg self.name which is variable of class 
 class facultyclass:
-        name=""
-        email=""
-        number=""
-        subject=""
-        city=""
+        def __init__(self):
+        
+            self.name=""
+            self.email=""
+            self.number=""
+            self.subject=""
+            self.city=""
 
         dict={}
         def createfaculty(self,name,email,number,sub,city):
