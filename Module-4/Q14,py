@@ -1,0 +1,7 @@
+# How many except statements can a try-except block have? Name Some
+built-in exception classes:
+
+It can be any number of except statement btry-except block have it.
+KeyError	
+IndexError
+EOFError	
